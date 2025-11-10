@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)file:///C:/Users/Usuario/Downloads/brochure_men_alladjavrova_v2.html -->
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Жить проще. Спокойнее. Эффективнее — Джаврова Алла Петровна</title>
+<style>
+  :root {
+    --bg1: #0F172A;
+    --bg2: #020617;
+    --accent: #F59E0B;
+    --accent-soft: #FACC15;
+    --card-bg: #020617;
+    --card-border: #1E293B;
+    --text-main: #E5E7EB;
+    --text-soft: #9CA3AF;
+    --pill-bg: #111827;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: radial-gradient(circle at top, #1E293B 0, #020617 52%, #000000 100%);
+    color: var(--text-main);
+  }
+  .page {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 40px 24px 60px;
+  }
+  .hero {
+    border-radius: 32px;
+    padding: 40px 24px 32px;
+    background: radial-gradient(circle at top left, #1F2937 0, #020617 55%);
+    border: 1px solid #1F2937;
+    box-shadow: 0 32px 80px rgba(0,0,0,0.8);
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: "";
+    position: absolute;
+    inset: -40%;
+    background: radial-gradient(circle at top right, rgba(245,158,11,0.25), transparent 60%);
+    opacity: 0.9;
+    pointer-events: none;
+  }
+  .hero-inner {
+    position: relative;
+    z-index: 1;
+  }
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 12px;
+    border-radius: 999px;
+    background: var(--pill-bg);
+    border: 1px solid #374151;
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--text-soft);
+    margin-bottom: 14px;
+  }
+  .pill-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 999px;
+    background: var(--accent);
+  }
+  .hero-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #F9FAFB;
+    margin-bottom: 8px;
+  }
+  .hero-sub {
+    font-size: 15px;
+    color: var(--text-soft);
+    margin-bottom: 20px;
+  }
+  .hero-name {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .hero-tagline {
+    font-size: 13px;
+    color: var(--text-soft);
+  }
+  .hero-cta {
+    margin-top: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 8px 18px;
+    border-radius: 999px;
+    border: 1px solid rgba(248,250,252,0.1);
+    background: linear-gradient(135deg, #F59E0B, #F97316);
+    color: #020617;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .btn-outline {
+    border: 1px solid #374151;
+    background: transparent;
+    color: var(--text-soft);
+    font-size: 12px;
+    padding: 7px 14px;
+  }
+  h2.section-title {
+    font-size: 22px;
+    color: #E5E7EB;
+    margin: 32px 0 10px;
+  }
+  p, li {
+    line-height: 1.6;
+    font-size: 14px;
+    color: var(--text-soft);
+  }
+  ul {
+    padding-left: 18px;
+    margin-top: 4px;
+  }
+  li { margin: 3px 0; }
+  .highlight {
+    color: var(--accent-soft);
+    font-weight: 600;
+  }
+  .split {
+    display: grid;
+    grid-template-columns: minmax(0,1.2fr) minmax(0,0.8fr);
+    gap: 22px;
+    margin-top: 8px;
+  }
+  .side-box {
+    background: radial-gradient(circle at top, #020617, #020617);
+    border-radius: 18px;
+    border: 1px solid #1F2937;
+    padding: 14px 16px;
+  }
+  .side-box h3 {
+    margin: 0 0 8px;
+    font-size: 15px;
+    color: var(--accent-soft);
+  }
+  .frame {
+    border-radius: 16px;
+    border: 1px solid #374151;
+    padding: 10px 14px;
+    font-size: 13px;
+    margin-bottom: 14px;
+    color: var(--text-soft);
+  }
+  .results-grid {
+    display: grid;
+    grid-template-columns: minmax(0,1fr) minmax(0,1fr);
+    gap: 12px;
+    margin-top: 10px;
+  }
+  .result-card {
+    background: var(--card-bg);
+    border-radius: 18px;
+    border: 1px solid var(--card-border);
+    padding: 12px 14px;
+    box-shadow: 0 18px 40px rgba(0,0,0,0.7);
+  }
+  .result-card h3 {
+    margin: 0 0 4px;
+    font-size: 15px;
+    color: var(--accent);
+  }
+  .strip {
+    margin-top: 20px;
+    padding: 12px 16px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #111827, #111827);
+    border: 1px solid #374151;
+    text-align: center;
+    font-size: 13px;
+    color: var(--text-soft);
+  }
+  .formats {
+    display: grid;
+    grid-template-columns: minmax(0,1.1fr) minmax(0,0.9fr);
+    gap: 20px;
+    align-items: flex-start;
+  }
+  .price-box {
+    border-radius: 20px;
+    background: radial-gradient(circle at top, #111827, #020617);
+    border: 1px solid #374151;
+    padding: 16px 18px;
+  }
+  .price-line {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    font-size: 14px;
+  }
+  .price-label {
+    font-weight: 500;
+    color: #E5E7EB;
+  }
+  .price-value {
+    font-weight: 700;
+    color: var(--accent-soft);
+  }
+  .footer {
+    margin-top: 26px;
+    padding: 16px 18px;
+    border-radius: 20px;
+    border: 1px solid #374151;
+    background: #020617;
+  }
+  .footer-name {
+    font-weight: 600;
+    color: #F9FAFB;
+  }
+  .footer-tag {
+    font-size: 13px;
+    color: var(--text-soft);
+  }
+  @media (max-width: 780px) {
+    .split,
+    .results-grid,
+    .formats {
+      grid-template-columns: minmax(0,1fr);
+    }
+    .hero {
+      text-align: left;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="pill">
+        <span class="pill-dot"></span>
+        другой сценарий жизни
+      </div>
+      <h1 class="hero-title">Жить проще. Спокойнее. Эффективнее.</h1>
+      <p class="hero-sub">Когда «так, как раньше, больше не работает».</p>
+      <div class="hero-name">Джаврова Алла Петровна</div>
+      <div class="hero-tagline">Специалист по глубинным личным изменениям<br>(Мастер-Целитель, Проводник изменений)</div>
+      <div class="hero-cta">
+        <a href="file:///C:/Users/Usuario/Downloads/brochure_men_alladjavrova_v2.html#" class="btn">Записаться на сессию</a>
+        <span class="btn btn-outline">Личные сессии — 200 USD · Групповые — 70 USD</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Кто я и чем занимаюсь</h2>
+    <p>Меня зовут <strong>Джаврова Алла Петровна</strong>.</p>
+    <p>Я работаю с людьми, которые устали жить в постоянном напряжении, ощущении тупика и повторяющихся проблем — и хотят <span class="highlight">реальных изменений в жизни</span>, а не очередной теории.</p>
+    <p>Моя задача — помочь вам:</p>
+    <ul>
+      <li>выйти из замкнутого круга одних и тех же ситуаций,</li>
+      <li>снять внутреннее напряжение и постоянно фонящий стресс,</li>
+      <li>вернуть ясность в голове и опору внутри,</li>
+      <li>перейти на другой уровень качества жизни: в деньгах, отношениях, состоянии.</li>
+    </ul>
+    <p>Я не психиатр и не коуч «как стать успешным за 7 шагов». Я работаю на глубинном уровне — там, где находятся реальные причины того, что жизнь упирается в потолок.</p>
+  </section>
+
+  <section>
+    <h2 class="section-title">В чём моя особенность и ценность</h2>
+    <div class="split">
+      <div>
+        <p>Я работаю не только с привычными разговорами и «разбором ситуаций».</p>
+        <p>Моя особенность в том, что я помогаю человеку <span class="highlight">сменить жизненную траекторию</span>: по-простому — перейти на другой сценарий жизни, где становятся возможны те варианты, которые раньше как будто даже не стояли на выбор.</p>
+        <p>Что это даёт на практике:</p>
+        <ul>
+          <li>вы перестаёте крутиться в одних и тех же проблемах,</li>
+          <li>меняется не только ваше отношение, но и реальные обстоятельства,</li>
+          <li>приходят другие люди, другие задачи, другие суммы, другие решения,</li>
+          <li>появляется ощущение: «я больше не живу на автопилоте, я управляю своей жизнью».</li>
+        </ul>
+      </div>
+      <div class="side-box">
+        <h3>Сухой остаток</h3>
+        <ul>
+          <li>Смена жизненного сценария</li>
+          <li>Реальные изменения в деньгах, работе, отношениях</li>
+          <li>От автопилота — к управлению своей жизнью</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Для кого это</h2>
+    <div class="frame">
+      Если чувствуете, что живёте не на свой максимум — это про вас.
+    </div>
+    <p>Моя работа особенно подходит тем мужчинам, которые:</p>
+    <ul>
+      <li>устали тащить всё на себе и внутренне выгорели;</li>
+      <li>много сделали, но внутри пусто и нет удовлетворения;</li>
+      <li>вроде «всё нормально», но нет вкуса к жизни;</li>
+      <li>заметили, что в отношениях, бизнесе или работе постоянно повторяется один и тот же сценарий;</li>
+      <li>понимают: «так, как я живу сейчас, дальше нельзя — но я не знаю, как по-другому».</li>
+    </ul>
+    <p><em>Вам не нужно верить в «энергии». Вам важно, чтобы в жизни реально что-то поменялось.</em></p>
+  </section>
+
+  <section>
+    <h2 class="section-title">Какие результаты получают мужчины</h2>
+    <div class="results-grid">
+      <div class="result-card">
+        <h3>1. Меньше внутреннего напряжения</h3>
+        <p>Уходит состояние постоянной «боевой готовности» и внутреннего сжатия. Становится легче спать, отдыхать и восстанавливаться.</p>
+      </div>
+      <div class="result-card">
+        <h3>2. Ясность в голове</h3>
+        <p>Уходят бесконечные сомнения и метания. Решения принимаются проще и спокойнее. Появляется чёткое понимание, что вам важно и куда вы идёте.</p>
+      </div>
+      <div class="result-card">
+        <h3>3. Другой сценарий в деньгах и работе</h3>
+        <p>Вы выходите из ролей «тащу всё один» и «вечно не хватает». Появляются другие форматы работы, партнёры, задачи. Растёт способность нормально зарабатывать без саморазрушения.</p>
+      </div>
+      <div class="result-card">
+        <h3>4. Здоровее отношения</h3>
+        <p>Меньше конфликтов «на ровном месте». Больше уважения к себе и близким. Отношения перестают быть полем боя и становятся опорой.</p>
+      </div>
+      <div class="result-card">
+        <h3>5. Больше энергии и интереса к жизни</h3>
+        <p>Исчезает ощущение, что вы просто существуете. Возвращается интерес к делу, людям, себе. Появляются силы на то, что давно откладывали.</p>
+      </div>
+      <div class="result-card">
+        <h3>6. Внутренний стержень</h3>
+        <p>Вы перестаёте подстраиваться под всех. Появляется ощущение внутреннего хребта: «я знаю, кто я и как мне ок». Вы начинаете жить так, как вам действительно подходит.</p>
+      </div>
+    </div>
+    <div class="strip">
+      Вы не просто «чуть-чуть улучшаете жизнь» — вы переходите на другой сценарий, где спокойствие, деньги и порядок становятся нормой.
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Форматы работы и стоимость</h2>
+    <div class="formats">
+      <div>
+        <p>Формат подбираем под вашу задачу и график. Важно, чтобы работа не «повисла в воздухе», а отражалась на реальных решениях и действиях.</p>
+        <ul>
+          <li>Индивидуальные встречи — онлайн или офлайн</li>
+          <li>Групповые форматы — когда важна поддержка и динамика</li>
+          <li>При необходимости — сопровождение в период серьёзных перемен</li>
+        </ul>
+      </div>
+      <div class="price-box">
+        <div class="price-line">
+          <span class="price-label">Личная сессия 1:1</span>
+          <span class="price-value">200 USD</span>
+        </div>
+        <p style="font-size:12px;margin-top:0;margin-bottom:10px;">Глубинная работа тет-а-тет. Максимальный фокус на вашей ситуации и задачах.</p>
+        <div class="price-line">
+          <span class="price-label">Групповая сессия</span>
+          <span class="price-value">70 USD</span>
+        </div>
+        <p style="font-size:12px;margin-top:0;">Работа в группе единомышленников. Стоимость за одного участника.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer">
+    <p>Если говорить прямо: если вы чувствуете, что живёте не на свой максимум, устали постоянно решать чужие задачи и разгребать последствия — это хороший момент перестать просто терпеть и начать менять траекторию жизни.</p>
+    <p>Моя задача — провести вас через этот переход без лишней философии, без давления и оценок, максимально экологично и по-мужски честно.</p>
+    <div class="footer-name">Джаврова Алла Петровна</div>
+    <div class="footer-tag">Специалист по глубинным личным изменениям<br>(Мастер-Целитель, Проводник изменений)</div>
+    <p style="font-size:11px;margin-top:8px;">(здесь вы можете добавить свои контакты: телефон, Telegram, WhatsApp, сайт, соцсети)</p>
+  </section>
+</div>
+
+
+</body></html>
